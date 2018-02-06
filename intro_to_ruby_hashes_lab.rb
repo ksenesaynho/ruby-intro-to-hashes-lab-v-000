@@ -6,12 +6,14 @@ def actor
     actor {name: "Dwayne The Rock Johnson"}
 end
 
-def monopoly
+def monopoly_with_second_tier
 	monopoly = {
-	  railroads: {
-	    pieces: 4
-	  }
+		railroads: {
+			pieces: 4, 
+			names: {}
+		}
 	}
+end
 
 end
 
